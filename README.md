@@ -18,14 +18,3 @@ The system is constructed as a **Stacked Simple Recurrent Neural Network (RNN)**
 | **6. Dense (Sigmoid)** | `(batch_size, 1)` | `(32 × 1) + 1 = 33` | Fully connected projection layer squeezing the latent features into a strict final continuous probability scale ($0.0 \dots 1.0$). |
 
 ---
-
-### ⚙️ Core Compilation Configurations
-
-To train the stacked recurrent layers efficiently, the network uses a standard optimization stack designed for binary classification boundaries:
-
-* **Optimizer:** `Adam` — Utilizes adaptive learning rates mapping the first and second moments of the gradients to handle text feature sparsity.
-* **Loss Function:** `Binary Crossentropy` — Measures the structural divergence between predicted probabilities and target classifications ($0$ vs $1$).
-* **Evaluation Metric:** `Accuracy` 
-
----
-
