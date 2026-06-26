@@ -4,9 +4,9 @@ Spam /Ham message or detected by DL RNN
 
 ### 📊 Model Architecture Summary
 
-| Layer Number | Layer Type | Output Shape | Activation / Details |
-| :--- | :--- | :--- | :--- |
-| 1 | **Embedding** | `(None, 100, 50)` | Maps tokens to dense vectors |
+| Layer Number | Layer Type | Output Shape | Parameters | Description |
+| :--- | :--- | :--- | :--- | | :--- | | :--- |
+| 1 | **Embedding** | `((batch_size, MAX_LEN, EMBEDDING_DIM)` | `((VOCAB_SIZE + 1) × EMBEDDING_DIM))' |
 | 2 | **SimpleRNN 1** | `(None, 100, 64)` | `return_sequences=True`, Dropout: 0.2 |
 | 3 | **Dropout 1** | `(None, 100, 64)` | Structural Regularization (30%) |
 | 4 | **SimpleRNN 2** | `(None, 32)` | `return_sequences=False`, Dropout: 0.2 |
