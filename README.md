@@ -19,6 +19,14 @@ The system is constructed as a **Stacked Simple Recurrent Neural Network (RNN)**
 
 ---
 
-![RNN Architecture Flow](https://github.com/amitpoa/Spam-Not-Spam-Classification-RNN-/releases/download/v1.0/model.flow.png)
+<p align="center">
+  <img src="https://github.com/amitpoa/Spam-Not-Spam-Classification-RNN-/releases/tag/v1.0#:~:text=6-,basic.rnn.flow.png,-sha256%3Ab2251df06d10378d06a604ec802daf50d47bc0d8c0c98045108c737d1afab008" width="400" alt=" Basic RNN Architecture ">
+</p>
+
+---
+
+<p align="center">
+  <img src="https://github.com/amitpoa/Spam-Not-Spam-Classification-RNN-/releases/tag/v1.0#:~:text=model.architecture.png" width="400" alt=" RNN Architecture Diagram">
+</p>
 
 ---
