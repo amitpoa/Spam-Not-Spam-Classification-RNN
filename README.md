@@ -3,6 +3,9 @@ Spam /Ham message or email detected by DL RNN
 
 Run the model in locally or colab use [Test Inferance](https://github.com/amitpoa/Spam-Not-Spam-Classification-RNN-/blob/main/Interactive_Inferance_(spam_rnn_classifier).ipynb)
 
+Download [model](https://github.com/amitpoa/Spam-Not-Spam-Classification-RNN/releases/download/v1.0/simplernn_model_1.keras) and [tokenizer](https://github.com/amitpoa/Spam-Not-Spam-Classification-RNN/releases/download/v1.0/tokenizer.pickle) from Releases (Intial Model Asstes)
+
+
 ---
 
 ## 🧠 Model Architecture & Deep Learning Pipeline
