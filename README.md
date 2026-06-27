@@ -31,6 +31,8 @@ Basic Understanding of RNN Model Architecture
 
 MY RNN Architecture (AI generated)
 
+`EMBEDDING_DIM` = 128 
+
 <p align="center">
   <img src="https://github.com/amitpoa/Spam-Not-Spam-Classification-RNN-/releases/download/v1.0/model.architecture.png" style="width: 550px; height: 600px; object-fit: contain;" alt=" RNN Architecture Diagram">
 </p>
