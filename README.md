@@ -1,5 +1,5 @@
 # Spam-Not-Spam-Classification-RNN-
-Spam /Ham message or detected by DL RNN
+Spam /Ham message or email detected by DL RNN
 
 
 ## 🧠 Model Architecture & Deep Learning Pipeline
@@ -16,5 +16,9 @@ The system is constructed as a **Stacked Simple Recurrent Neural Network (RNN)**
 | **4. SimpleRNN 2** | `(batch_size, 32)` | `32 × (64 + 32 + 1)` | Deeper abstraction recurrent layer extracting abstract patterns. By setting `return_sequences=False`, it drops sequence tracking to output exclusively the final single architectural state vector. |
 | **5. Dropout (0.3)** | `(batch_size, 32)` | `0` | Final safety regularizer that drops 30% of the aggregated summary features right before classification to combat network overfitting. |
 | **6. Dense (Sigmoid)** | `(batch_size, 1)` | `(32 × 1) + 1 = 33` | Fully connected projection layer squeezing the latent features into a strict final continuous probability scale ($0.0 \dots 1.0$). |
+
+---
+
+![RNN Architecture Flow](https://github.com/amitpoa/Spam-Not-Spam-Classification-RNN-/releases/download/v1.0/model.flow.png)
 
 ---
